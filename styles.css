@@ -1,3 +1,9 @@
+body {
+   background: scroll;
+   background-color: rgb(137, 101, 101);
+   text-align: center;
+}
+
 .inGred {
    color: rgb(35, 73, 104);
    font-family: 'Courier New', Courier, monospace;
@@ -7,11 +13,38 @@
    text-indent: 12px;
 }
 
+.method {
+   text-align: left;
+   background-color: rgb(89, 103, 103);
+}
+
+
 .desc {
-   text-align: center;
-   background-image:-o-repeating-linear-gradient(odin-recipes/images/ocean_bkgr);
+   background-color: rgb(185, 142, 142);
+   font-size: 18px;
 }
 
 .desc .times {
+   background-color: rgb(223, 170, 167);
+   font-weight: bold;
+}
+
+ul, ol {
    list-style-position: inside;
+}
+
+img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
+}
+
+h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+   text-align: center;
 }
