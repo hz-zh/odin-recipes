@@ -1,6 +1,9 @@
 body {
    background: scroll;
    background-color: rgb(137, 101, 101);
+}
+
+.hmeList {
    text-align: center;
 }
 
@@ -18,10 +21,10 @@ body {
    background-color: rgb(89, 103, 103);
 }
 
-
 .desc {
    background-color: rgb(185, 142, 142);
    font-size: 18px;
+   text-align: center;
 }
 
 .desc .times {
@@ -34,7 +37,7 @@ ul, ol {
 }
 
 img {
-   display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -43,8 +46,6 @@ img {
 
 h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h2 {
    text-align: center;
 }
+
