@@ -1,0 +1,17 @@
+.inGred {
+   color: rgb(35, 73, 104);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 600;
+   background-color: rgb(171, 205, 235);
+   text-align: left;
+   text-indent: 12px;
+}
+
+.desc {
+   text-align: center;
+   background-image:-o-repeating-linear-gradient(odin-recipes/images/ocean_bkgr);
+}
+
+.desc .times {
+   list-style-position: inside;
+}
